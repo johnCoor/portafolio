@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:ital@1&family=Open+Sans:wght@300&family=Poppins&display=swap" rel="stylesheet">
+		<title>Sección Informativa</title>	
+		
+		<link
+		rel="icon"
+		type="image/png"
+		sizes="300x300"
+		href="./images/20b18fa5a4a64cafaa037bbb05630f1c.png"
+	  />
+  
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Detalles.html" class="active">Sección Informativa</a></li>
+						<li><a href="mas-sobre-mi.html">Sobre mi</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Api de Rick and Morty</h1>
+							<span class="image fit"><img src="images/Rick_and_Morty.jpg.png" alt="" /></span>
+							<p> Se utilizaron herramientas para configurar nuestro código y que este pudiera correr en cualquier navegador.La herramienta  de <span style="color: black;"><a href="https://webpack.js.org/concepts/" target="_blank"> Webpack</a></span> para poder obtener un entorno de desarrollo y al mismo tiempo poder correr nuestra app en producción, también se utilizó el Transpilador <span style="color: black;"><a href="https://babeljs.io/docs/en/" target="_blank">Babel</a></span> esta es una herramienta que nos permite transformar nuestro código JS de última generación (o con funcionalidades extras) a JS que cualquier navegador o versión de <span style="color: black;"><a href="https://nodejs.org/en/docs/" target="_blank">Node.js</a></span> puedice compilar.</p>
+
+							<p>La SPA consume la API de Rick and Morty y otras propiedades que nosofrece el navegador tales como <span style="color: black;"><a href="https://developer.mozilla.org/es/docs/Web/API/Location" target="_blank" >Locatión</a></span> para saber en qué Url estamos , al mismo tiempo la propiedad <span style="color: black;"> <a href="https://developer.mozilla.org/en-US/docs/Web/API/Location/hash" target="_blank">Location.hash </a></span> que contiene un '#' seguido por el fragmento identificador de la URL. Es así como podemos sabersi nos encontramos en el Home de la app o si nos encontramos seleccionando un personaje o si estamos en la pagina 404 o que pudiese haber un error y esta se active..</p>
+						</div>
+					</section>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major"><span style="background-color: #ff9900eb;">Platzi</span>Movies</h1>
+							<span class="image fit"><img src="images/App-Movies.jpg.png" alt="" /></span>
+							<p>La página web PlatziMovies es una <a href="https://developer.mozilla.org/es/docs/Glossary/REST" target="_blank" style="color: black;">Api Rest</a> que conecta con los servicios de The Movie Database (TMDB) y de esta manera obtener Información de una vasta cantidad de películas.</p>
+
+							<p>La API implementa herramientas y apis que nos brinda los navegadores, como por ejemplo la api de <a href="https://axios-http.com/docs/intro" target="_blank" style="color:black;">Axios</a> es una biblioteca de JavaScript muy popular que puede utilizar para realizar solicitudes HTTP, que funciona tanto en el navegador como en Node.js, otra de las apis que implementa nuestro sitio web es la del <a href="https://developer.mozilla.org/es/docs/Web/API/Intersection_Observer_API" target="_blank" style="color:black;">Intersectio Observer API</a> que nos ayuda a identificar si un elemento es visible o no, para el render de las imágenes y que estas no carguen de manera abrupta utilizamos el <a href="https://www.npmjs.com/package/react-loading-skeleton" target="_blank" style="color: black;">Skeleton Loading</a> junto a lo que vendría siendo una carga perezosa o <a href="https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading" style="color:black ;" target="_blank">Lazy Loading</a> intersectadas por nuestra api de Intersection Observer y que estas carguen a medida que se hacen visibles en la pantalla para una mejor experiencia de usuario y mejora de <a href="https://developer.mozilla.org/es/docs/Web/Performance" style="color: black;" target="_blank">Performance</a> de nuestro sitio web.</p>
+
+							<p>La página web TheMovie con tiene diversas secciones utilizando la propiedad <span style="color: black;"><a href="https://developer.mozilla.org/es/docs/Web/API/Location" target="_blank" >Locatión</a></span> del navegador para saber la ruta en la que estamos  y además tiene el botón de like ❤ para poder agregar las películas a la sección de favoritos</p>
+
+							<p>La navegación de las peliculas se hace con la herramienta del <a href="https://javascript.plainenglish.io/implementing-infinite-scroll-behavior-2dabff25901f" style="color: black;" target="_blank">Infinity Scroll</a> o Scroll Infinito herramienta que nos provee el navegador.</p>
+						</div>
+					</section>
+
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li >&copy;Todos los derechos reservados John🦾.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
